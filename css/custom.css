@@ -109,7 +109,13 @@ NOTE: You can use your styling layout by this file to your website.
 .the-cards img{
 	height: 300px;
 }
+.mt-0{
+	margin-top: 0px !important;
+}
 
+.opacity-0{
+	opacity: 0 !important;
+}
 
 
 /*responsive*/

@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="keywords" content="HTML5 Template" />
+    <meta name="description" content="Blink -School Wallet" />
+    <meta name="author" content="iqonicthemes.in" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+
+    <title>Blink -School Wallet</title>
+    
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="images/favicon.png" />
+    
+    <!-- Google Fonts -->
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&amp;Raleway:300,400,500,600,700,800,900">
+    
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    
+    <!-- owl-carousel -->
+    <link rel="stylesheet" type="text/css" href="css/owl-carousel/owl.carousel.css" />
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.css" />
+
+    <!-- Magnific Popup -->
+    <link rel="stylesheet" type="text/css" href="css/magnific-popup/magnific-popup.css" />
+
+    <!-- Animate -->
+    <link rel="stylesheet" type="text/css" href="css/animate.css" />
+    
+    <!-- Ionicons -->
+    <link rel="stylesheet" href="css/ionicons.min.css">
+    
+    <!-- Style -->
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!-- Responsive -->
+    <link rel="stylesheet" href="css/responsive.css">
+
+    <!-- custom style -->
+    <link rel="stylesheet" href="css/custom.css" />
+
+</head>
+
+<body>
+
+    <!-- loading -->
+
+    <div id="loading" class="green-bg">
+        <div id="loading-center">
+            <div class="boxLoading"></div>
+        </div>
+    </div>
+
+    <!-- loading End -->
+
+
+    <!-- Header -->
+
+    <header id="header-wrap" data-spy="affix" data-offset-top="55">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <nav class="navbar navbar-default">
+                        <!-- Brand and toggle get grouped for better mobile display -->
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                            <a class="navbar-brand" href="javascript:void(0)">
+                                <img src="images/logo.png" alt="logo">
+                            </a>
+                        </div>
+                        <!-- Collect the nav links, forms, and other content for toggling -->
+                        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                            <ul class="nav navbar-nav navbar-right" id="top-menu">
+                                <li><a href="index.html">Exit registration</a></li>
+                            </ul>
+                        </div>
+                        <!-- /.navbar-collapse -->
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Header End -->
+
+    <!-- Banner -->
+ 
+    <section id="iq-home" class="banner iq-bg iq-bg-fixed iq-box-shadow iq-over-black-90" style=" background: url(images/banner/bg.jpg);">
+        <div id="particles-js"></div>
+        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            
+            <!-- Wrapper for slides -->
+            <div class="container">
+                <div class="carousel-inner" role="listbox">
+                    <div class="item active">
+                        <div class="banner-text">
+                            <div class="row">
+                                <div class="col-sm-6 col-lg-12 col-md-12 opacity-0">
+                                    <h1 class="iq-font-white iq-tw-8 iq-mt-0 mt-0" data-animation="animated fadeInLeft">
+                                        <small class="iq-font-white iq-tw-5"> <strong class="iq-font-white">&#9679;</strong>School's registration</small>FORM</h1>
+                                    
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Banner End -->
+
+
+
+   <section id="contact-us" class="iq-our-touch">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-10 col-md-offset-1">
+                    <div class="iq-get-in iq-pall-40 white-bg">
+                        <div class="row">
+                            <div class="col-sm-12 ">
+                                <div class="heading-title iq-mb-60">
+                                    <h2 class="title iq-tw-6 text-capitalize">School registration form</h2>
+                                    <div class="divider"></div>
+                                    <p>Use this page to register your scool for a <strong>blink portal</strong></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div id="formmessage">Success/Error Message Goes Here</div>
+                            <form class="form-horizontal" id="contactform" method="post" action="../php/contact-form.php">
+                                <div class="contact-form">
+									<div class="col-sm-12 iq-mb-25">
+										<div class=""><h3><strong>School details</strong></h3></div>
+									</div>
+									<div class="col-md-6 col-sm-12">
+											<div class="section-field">
+												<label for="school-name">School's Name <strong class="text-danger">*</strong></label>
+												<input id="school-name" type="text" placeholder="Enter the school's name" name="name">
+											</div>
+									</div>
+									<div class="col-md-6 col-sm-12">
+											<div class="section-field">
+												<label for="institution-type">Institution Type<strong class="text-danger">*</strong></label>
+												<select class="form-control" id="institution-type">
+												  <option>-- select institution type --</option>
+												  <option>Primary school</option>
+												  <option>Secondary school</option>
+												  <option>Secondary and primary school</option>
+												  <option>University or collage</option>
+												</select>
+											</div>
+									</div>
+									<div class="col-md-6 col-sm-12">
+											<div class="section-field">
+												<label for="country">Country <strong class="text-danger">*</strong></label>
+												<input id="country" type="text" placeholder="Enter country where school is located" name="name">
+											</div>
+									</div>
+									
+									<div class="col-md-6 col-sm-12">
+											<div class="section-field">
+												<label for="school-name">School's Physical Location<strong class="text-danger">*</strong></label>
+												<input id="school-name" type="text" placeholder="Enter school,s physical location" name="name">
+											</div>
+									</div>
+									
+									<div class="col-md-6 col-sm-12">
+											<div class="section-field">
+												<label for="school-phone">School's Phone number<strong class="text-danger">*</strong></label>
+												<input id="school-phone" type="text" placeholder="Enter school's phone " name="name">
+											</div>
+									</div>
+									<div class="col-md-6 col-sm-12">
+											<div class="section-field">
+												<label for="school-email">School's Physical Location<strong class="text-danger">*</strong></label>
+												<input id="school-email" type="email" placeholder="Enter school's email addresss" name="name">
+											</div>
+									</div>
+									
+                                    <div class="col-sm-12 col-md-6">
+										<label for="discr">Descriptive information</label>
+										<div class="section-field textarea">
+                                            <textarea class="input-message" id="discr" placeholder="Comment*" rows="7" name="message"></textarea>
+                                        </div>
+									</div>
+									
+									<hr>
+									<div class="col-sm-12 iq-mt-50 iq-mb-25">
+										<h3><strong>Administrator's Information</strong></h3>
+									</div>
+									<div class="col-md-4 col-sm-12">
+											<div class="section-field">
+												<label for="fname">First name<strong class="text-danger">*</strong></label>
+												<input id="fname" type="text" placeholder="Enter your first name" name="name">
+											</div>
+									</div>
+									<div class="col-md-8 col-sm-12">
+											<div class="section-field">
+												<label for="other-name">Other Name(s)<strong class="text-danger">*</strong></label>
+												<input id="other-name" type="text" placeholder="Enter your other names" name="name">
+											</div>
+									</div>
+									<div class="col-md-6 col-sm-12">
+											<div class="section-field">
+												<label for="your-phone">Your Phone Number<strong class="text-danger">*</strong></label>
+												<input id="your-phone" type="text" placeholder="Enter your Phone number" name="name">
+											</div>
+									</div>
+									
+									<div class="col-md-6 col-sm-12">
+											<div class="section-field">
+												<label for="your-email">Your Email<strong class="text-danger">*</strong></label>
+												<input id="your-email" type="email" placeholder="Enter your email address" name="name">
+											</div>
+									</div>
+									
+									<div class="col-md-6 col-sm-12">
+											<div class="section-field">
+												<label for="pass">Enter your account's password<strong class="text-danger">*</strong></label>
+												<input id="pass" type="password" placeholder="Enter a password" name="name">
+											</div>
+									</div>
+									
+									<div class="col-md-6 col-sm-12">
+											<div class="section-field">
+												<lable for="confirm">Confirm your password<strong class="text-danger">*</strong></label>
+												<input id="confirm" type="text" placeholder="confirm your password" name="name">
+											</div>
+									</div>
+									
+									<div class="col-md-12 col-sm-12">
+											<button id="submit" name="submit" type="submit" value="Send" class="button iq-mt-40">Send Message</button>
+									</div>
+									
+                                    
+                                </div>
+                            </form>
+                            <div id="ajaxloader" style="display:none"><img class="center-block mt-30 mb-30" src="images/ajax-loader.gif" alt=""></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+ <!-- our patners -->
+
+    
+
+    <!-- our partners -->
+<div class="footer">
+    <!-- Footer -->
+
+    <footer class="iq-footer white-bg text-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-10 col-md-offset-1">
+                    <div class="footer-info iq-mt-50 iq-mb-30">
+                        <img id="logo_img" class="img-responsive center-block iq-mb-10 wow zoomIn" data-wow-duration="1s" src="images/logo-footer.png" alt="">
+                        <p>Blink is an easy way to pay for school fees and pocket money. It provide a simple and secure way to send money to the school for tuition and other school charges as well as pocket money.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="footer-copyright iq-ptb-20">2020 Blink Developed by <a target="_blank" href="https://nouveta.tech/">Nouveta LTD</a>.</div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Footer END -->
+
+</div>
+
+    <!-- back-to-top -->
+    
+    <div id="back-to-top">
+        <a class="top" id="top" href="#top"> <i class="ion-ios-upload-outline"></i> </a>
+    </div>
+
+    <!-- back-to-top End -->
+
+
+ 
+
+
+    <!-- jQuery -->
+    <script src="js/jquery.min.js"></script>
+
+    <!-- bootstrap -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- owl-carousel -->
+    <script src="js/owl-carousel/owl.carousel.min.js"></script>
+
+    <!-- Counter -->
+    <script src="js/counter/jquery.countTo.js"></script>
+
+    <!-- Jquery Appear -->
+    <script src="js/jquery.appear.js"></script>
+
+    <!-- Magnific Popup --> 
+    <script src="js/magnific-popup/jquery.magnific-popup.min.js"></script>
+
+    <!-- Retina -->
+    <script src="js/retina.min.js"></script>
+
+    <!-- wow -->
+    <script src="js/wow.min.js"></script>
+
+    <!-- Countdown -->
+    <script src="js/jquery.countdown.min.js"></script>
+
+    <!-- Particles -->
+    <script src="js/particles/particles.min.js"></script>
+    <script src="js/particles/app.js"></script>
+
+    <!-- Custom -->
+    <script src="js/custom.js"></script>
+
+    
+
+
+</body>
+
+</html>

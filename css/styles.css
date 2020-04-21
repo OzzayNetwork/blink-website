@@ -2475,7 +2475,7 @@ header.affix .navbar-nav {
     width: 100%;
     float: left;
 }
-.contact-form .section-field input {
+.contact-form .section-field input, .contact-form .section-field select {
     position: relative;
     width: 100%;
     margin-bottom: 20px;
@@ -2487,7 +2487,7 @@ header.affix .navbar-nav {
     color: #b6b6b6;
     border: 1px solid #e1e1e1;
 }
-.contact-form .section-field input:focus, .contact-form .section-field.textarea textarea:focus {
+.contact-form .section-field input:focus, .contact-form .section-field.textarea textarea:focus, .contact-form .section-field select:focus {
     border: 1px solid #ff3301;
     box-shadow: none;
     outline: none;
