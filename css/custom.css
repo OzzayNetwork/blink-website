@@ -109,3 +109,16 @@ NOTE: You can use your styling layout by this file to your website.
 .the-cards img{
 	height: 300px;
 }
+
+
+
+/*responsive*/
+@media(max-width:992px){
+	 .iq-amazing-tab-one .nav.nav-tabs li a span {
+        display: none;
+    }
+    .iq-amazing-tab-one .nav-tabs li a i {
+        margin-right: 0;
+    }
+}
+/*responsive*/
