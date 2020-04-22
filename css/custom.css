@@ -116,6 +116,25 @@ NOTE: You can use your styling layout by this file to your website.
 .opacity-0{
 	opacity: 0 !important;
 }
+.powerde-by{
+	color: white;
+    text-align: center;
+    bottom: 56px;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 100%;
+    flex-flow: column;
+}
+.powerde-by p{
+	margin: 0px;
+	padding: 0px;
+}
+.powerde-by img{
+	height: 40px;
+    margin-top: 2rem;
+}
 
 
 /*responsive*/
