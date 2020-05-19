@@ -29,14 +29,23 @@ Index Of Script
 ------------------------------------------------
 Index Of Script
 ----------------------------------------------*/
+$(window).on("load", function () {
+    setTimeout(function () {
+        // jQuery(".page-loader").fadeOut()
+       $("#load").fadeOut();
+        $("#loading").delay(0).fadeOut("slow");
+    }, 500);
+}),
 
 $(document).ready(function() {
+
+
 
     /*------------------------
     Page Loader
     --------------------------*/
-    jQuery("#load").fadeOut();
-    jQuery("#loading").delay(0).fadeOut("slow");
+    // jQuery("#load").fadeOut();
+    // jQuery("#loading").delay(0).fadeOut("slow");
 
 
 

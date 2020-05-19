@@ -147,3 +147,13 @@ NOTE: You can use your styling layout by this file to your website.
     }
 }
 /*responsive*/
+
+.blink-loader-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.blink-loader-container img{
+    width: 460px;
+}
